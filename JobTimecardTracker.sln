@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobTimecardTracker.Domain", "JobTimecardTracker.Domain\JobTimecardTracker.Domain.csproj", "{051465A2-E739-4967-8202-671D61F589B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobTimecardTracker.Data", "JobTimecardTracker.Data\JobTimecardTracker.Data.csproj", "{175193D7-D879-4074-BB5D-3D0FBF32D297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobTimecardTracker.Api", "JobTimecardTracker.Api\JobTimecardTracker.Api.csproj", "{0E2EFD1D-D258-490F-9DE2-CC8C1F0DA5CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobTimecardTracker.WinForms", "JobTimecardTracker.WinForms\JobTimecardTracker.WinForms.csproj", "{6661CE0B-842B-4FAF-A170-07E717B039CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobTimecardTracker.Tests", "JobTimecardTracker.Tests\JobTimecardTracker.Tests.csproj", "{5F73B282-F666-439A-BB3E-D02FC3D3397B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{18A2CCF1-D00A-46E0-8FFC-FA73FAB99979}"
+	ProjectSection(SolutionItems) = preProject
+		CreateSchema.sql = CreateSchema.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9F19942-1A6D-4082-AF64-84F61547221E}"
+	ProjectSection(SolutionItems) = preProject
+		AI_USAGE.md = AI_USAGE.md
+		ARCHITECTURE.md = ARCHITECTURE.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051465A2-E739-4967-8202-671D61F589B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051465A2-E739-4967-8202-671D61F589B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051465A2-E739-4967-8202-671D61F589B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051465A2-E739-4967-8202-671D61F589B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175193D7-D879-4074-BB5D-3D0FBF32D297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175193D7-D879-4074-BB5D-3D0FBF32D297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175193D7-D879-4074-BB5D-3D0FBF32D297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175193D7-D879-4074-BB5D-3D0FBF32D297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2EFD1D-D258-490F-9DE2-CC8C1F0DA5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2EFD1D-D258-490F-9DE2-CC8C1F0DA5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2EFD1D-D258-490F-9DE2-CC8C1F0DA5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2EFD1D-D258-490F-9DE2-CC8C1F0DA5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6661CE0B-842B-4FAF-A170-07E717B039CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6661CE0B-842B-4FAF-A170-07E717B039CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6661CE0B-842B-4FAF-A170-07E717B039CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6661CE0B-842B-4FAF-A170-07E717B039CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F73B282-F666-439A-BB3E-D02FC3D3397B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F73B282-F666-439A-BB3E-D02FC3D3397B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F73B282-F666-439A-BB3E-D02FC3D3397B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F73B282-F666-439A-BB3E-D02FC3D3397B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5048F2F6-AA88-4248-9454-2B20A2B0A225}
+	EndGlobalSection
+EndGlobal
